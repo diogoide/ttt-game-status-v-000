@@ -55,6 +55,6 @@ def winner?(board)
   return "X"
   elsif won?(board) && position_1 == "O"
   return "O"
-  else false
+else nil
 end
 end
