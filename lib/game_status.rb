@@ -56,4 +56,5 @@ def winner?(board)
   elsif won?(board) && position_1 == "O"
   return "O"
   else false
-end 
+end
+end
